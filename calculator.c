@@ -4,7 +4,7 @@ int main() {
 
   char x;
   double first, second;
-  printf("Enter an operator (+, -, *, /): ");
+  printf("Enter an operator :\n + for addition\n - for subtraction\n * for multiplication\n / for division \n  ");
   scanf("%c", &x);
   printf("Enter the two operands: ");
   scanf("%lf %lf", &first, &second);
